@@ -1,7 +1,7 @@
 <%@ page import="java.sql.Statement" %>
 <%@ page import="java.sql.ResultSet" %>
 <%@ page import="java.sql.Connection" %>
-<%@ page import="com.ass.datebase.UserDb"%>
+<%@ page import="admin.ass.datebase.UserDb"%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>

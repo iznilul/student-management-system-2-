@@ -1,4 +1,4 @@
-<%@ page import="com.ass.datebase.StudentDb" %>
+<%@ page import="admin.ass.datebase.StudentDb" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>

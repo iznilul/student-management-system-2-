@@ -1,5 +1,5 @@
 
-<%@ page import="com.ass.datebase.UserDb"%>
+<%@ page import="admin.ass.datebase.UserDb"%>
 <%@ page import="java.sql.Statement" %>
 <%@ page import="java.sql.ResultSet" %>
 <%@ page import="java.sql.Connection" %>

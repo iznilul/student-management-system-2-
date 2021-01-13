@@ -1,4 +1,4 @@
-<%@ page import="com.ass.datebase.StudentDb" %>
+<%@ page import="admin.ass.datebase.StudentDb" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -20,7 +20,7 @@
     String hometown = request.getParameter("hometown");
 
     //组装SQL语句
-    String sql = "insert into student(num,name,gender,age,phone,mail,major,classnumber,hometown) values("+num+",'"+name+"',"+gender+",'"+age+"','"+phone+"','"+mail+"','"+major+"','"+classnumber+"','"+hometown+"')";
+    String sql = "insert into student(num,name,gender,age,phone,mail,major,classnumber,hometown) values("+num+",'"+name+"','"+gender+"','"+age+"','"+phone+"','"+mail+"','"+major+"','"+classnumber+"','"+hometown+"')";
     //调用函数执行SQL语句
 
     if (sdb.studentUpdate(sql)){

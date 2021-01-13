@@ -1,7 +1,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ page import="com.ass.datebase.StudentDb" %>
+<%@ page import="admin.ass.datebase.StudentDb" %>
 <%@ page import="java.util.List" %>
-<%@ page import="com.ass.hole.Student" %>
+<%@ page import="admin.ass.hole.Student" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
